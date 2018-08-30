@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Shop by Category">
+        <group android:checkableBehavior="single">
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_home"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_men"
+                    android:icon="@drawable/ic_men"
+                    android:title="Men's Fashion" />
+                <item
+                    android:id="@+id/nav_wemen"
+                    android:icon="@drawable/ic_woman"
+                    android:title="Women's Fashion" />
+                <item
+                    android:id="@+id/nav_kids"
+                    android:icon="@drawable/boy"
+                    android:title="Kids's Fashion" />
+                <item
+                    android:id="@+id/nav_international"
+                    android:icon="@drawable/inter"
+                    android:title="International" />
+                <item
+                    android:id="@+id/nav_collection"
+                    android:icon="@drawable/collection"
+                    android:title="Collections" />
+            </menu>
+        </group>
+    </item>
+
+    <item android:title="Your Orders">
+        <menu>
+            <item
+                android:id="@+id/nav_cart"
+                android:icon="@drawable/ic_shopping_cart"
+                android:title="Your Wish List" />
+            <item
+                android:id="@+id/nav_offer"
+                android:icon="@drawable/car"
+                android:title="Track/Return Order" />
+        </menu>
+    </item>
+
+
+    <item android:title="Social Media">
+        <menu>
+            <item
+                android:id="@+id/instagram"
+                android:icon="@drawable/ic_instagram"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="Facebook" />
+        </menu>
+    </item>
+    <item android:title="Customer Service">
+        <menu>
+
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_about_black"
+                android:title="@string/action_about" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
